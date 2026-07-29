@@ -303,6 +303,8 @@ public class swishScript : MonoBehaviour
             }
         }
         yield return null;
+        yield return "strike";
+        yield return "solve";
         for (int i = 0; i < list.Count; i++)
         {
             list[i].OnInteract();
